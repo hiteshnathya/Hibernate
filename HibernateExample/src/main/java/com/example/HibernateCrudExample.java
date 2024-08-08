@@ -12,7 +12,7 @@ public class HibernateCrudExample {
        UserDao userDao = new UserDao();
  
        // Create
-       userDao.saveUser(new User("Pushpa", "Rani", "rani@gmail.com"));
+       userDao.saveUser(new User("Hitesh", "nathya", "hiteshnathya@gmail.com"));
        userDao.saveUser(new User("Santosh", "Kumar", "santosh@gmail.com"));
  
        // Read
@@ -21,7 +21,7 @@ public class HibernateCrudExample {
  
        // Update
        User user = users.get(0);
-       user.setFirstName("Rani");
+       user.setFirstName("Hitesh");
        userDao.updateUser(user);
  
        // Delete
